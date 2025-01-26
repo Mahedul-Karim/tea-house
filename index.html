@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
-    <link rel="stylesheet" href="./styles/output.css">
-</head>
-<body class="font-manrope">
-    <h1 class="text-[150px] text-red-600 font-bold">Hello World</h1>
-</body>
+    <link rel="stylesheet" href="./styles/output.css" />
+  </head>
+  <body class="font-manrope">
+    <main class="max-w-[1280px] w-11/12 mx-auto py-10">
+      <section class="grid sm:grid-cols-2 gap-2">
+        <div class="flex flex-col justify-center gap-5">
+          <h1 class="text-[32px] md:text-[40px] lg:text-[60px] font-extrabold text-dark-1 leading-[1.3]">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-dark-3 font-medium md:text-base text-sm">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <div>
+            <button
+              class="flex items-center gap-2 cursor-pointer text-white font-semibold md:text-base text-sm bg-gradient-to-r from-red to-orange px-3 py-[10px] rounded-lg"
+            >
+              Explore More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="./images/banner.png" alt="" class="w-full h-full object-contain" />
+          <div class="bg-white shadow-md rounded-[10px] w-max p-3 md:p-4 flex items-center gap-2 absolute bottom-0">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  class="size-5 md:size-7 fill-yellow-300">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+                <div>
+                    <h2 class="text-base md:text-xl font-extrabold text-dark-1">5.00</h2>
+                    <p class="text-xs md:text-sm text-dark-3 font-semibold">Trust Pilot Ratings</p>
+                </div>              
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
